@@ -27,4 +27,8 @@ impl Deck {
         let mut rng = thread_rng();
         self.cards.shuffle(&mut rng);
     }
+
+    pub fn draw_card(&mut self) -> Card {
+        self.cards.pop().unwrap()
+    }
 }
