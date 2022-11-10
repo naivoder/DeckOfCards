@@ -2,6 +2,12 @@
 name = "deck_of_cards"
 version = "0.1.0"
 edition = "2021"
+description = "A deck of 52 playing cards"
+homepage = "https://github.com/naivoder/deck_of_cards"
+repository = "https://github.com/naivoder/deck_of_cards"
+readme = "README.md"
+keywords = [ "playing", "cards", "deck", "52", "game" ]
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
